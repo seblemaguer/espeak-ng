@@ -191,6 +191,7 @@ The following `configure` options control which eSpeak NG features are enabled:
 | `--with-speechplayer`  | Enable the speechPlayer Klatt implementation.              | yes     |
 | `--with-mbrola` | Enable MBROLA voice support.                 | yes     |
 | `--with-sonic`  | Use the sonic library to support higher WPM. | yes     |
+| `--with-pulseaudio`  | Enable pulseaudio support               | yes     |
 | `--with-async`  | Enable asynchronous commands.                | yes     |
 
 __NOTE:__ The `--with-sonic` option requires that the sonic library and header
