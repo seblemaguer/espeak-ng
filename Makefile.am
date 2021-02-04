@@ -380,6 +380,7 @@ phsource/phonemes.stamp: \
 	phsource/ph_latvian \
 	phsource/ph_lithuanian \
 	phsource/ph_lojban \
+	phsource/ph_lule_saami \
 	phsource/ph_macedonian \
 	phsource/ph_malayalam \
 	phsource/ph_maltese \
@@ -575,6 +576,7 @@ dictionaries: \
 	espeak-ng-data/si_dict \
 	espeak-ng-data/sk_dict \
 	espeak-ng-data/sl_dict \
+	espeak-ng-data/smj_dict \
 	espeak-ng-data/sq_dict \
 	espeak-ng-data/sr_dict \
 	espeak-ng-data/sv_dict \
@@ -866,6 +868,9 @@ espeak-ng-data/sk_dict: dictsource/sk_list dictsource/sk_rules dictsource/sk_ext
 
 sl: espeak-ng-data/sl_dict
 espeak-ng-data/sl_dict: dictsource/sl_list dictsource/sl_rules dictsource/sl_extra dictsource/sl_emoji
+
+smj: espeak-ng-data/smj_dict
+espeak-ng-data/smj_dict: dictsource/smj_list dictsource/smj_rules dictsource/smj_extra dictsource/smj_emoji
 
 sq: espeak-ng-data/sq_dict
 espeak-ng-data/sq_dict: dictsource/sq_list dictsource/sq_rules dictsource/sq_extra dictsource/sq_emoji
